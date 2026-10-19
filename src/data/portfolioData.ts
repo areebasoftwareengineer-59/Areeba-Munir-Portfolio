@@ -30,7 +30,7 @@ export const PERSONAL_INFO = {
     semester1Gpa: "4.00",
     semester2Gpa: "4.00",
     academicStatus: "Software Engineering Student",
-    projectsCompleted: "9+",
+    projectsCompleted: "13+",
     focusAreas: "SE • DBMS • UI/UX • Web",
   }
 };
@@ -81,6 +81,86 @@ export const PROJECTS: Project[] = [
     visualType: "figma-portal",
     imageUrl: "/assets/projects/ucp-student-portal.jpg",
     isPreviewOnly: true
+  },
+  {
+    id: "atelier-fashion",
+    title: "Atelier — Modern Luxury & Fashion Editorial",
+    category: "Web Development",
+    year: "2026",
+    badge: "Editorial E-Commerce",
+    description:
+      "A modern luxury fashion editorial and apparel showcase featuring minimalist typography, curated collection lookbooks, interactive item catalog, and responsive web design.",
+    features: [
+      "Editorial Fashion & Apparel Collection Showcase",
+      "Minimalist Aesthetics & High-End Typography",
+      "Product Catalog with Category Filtering",
+      "Seamless Mobile & Desktop Responsive Design",
+      "Interactive Cart & Navigation Architecture"
+    ],
+    technologies: ["React / Next.js", "Tailwind CSS", "JavaScript", "HTML5", "Vercel"],
+    liveUrl: "https://atelier-eev4rmyeh-areeba-c601.vercel.app/",
+    imageUrl: "/assets/projects/atelier.jpg",
+    visualType: "atelier"
+  },
+  {
+    id: "ardenova-digital",
+    title: "Ardenova Digital — Creative Agency Platform",
+    category: "Web Development",
+    year: "2026",
+    badge: "Creative Agency",
+    description:
+      "A futuristic digital design and innovation agency web experience featuring cyber glowing visuals, interactive portfolio showcases, and forward-thinking branding.",
+    features: [
+      "Futuristic Cyber-Glow Aesthetics & Dark Mode",
+      "Interactive Agency Service & Project Showcase",
+      "Modern Responsive Layout with Bento Grid Sections",
+      "Smooth Micro-Interactions & Call-To-Action Flow",
+      "Client Case Studies & Technology Breakdown"
+    ],
+    technologies: ["React", "Tailwind CSS", "JavaScript", "UI/UX", "Vercel"],
+    liveUrl: "https://ardenova-digital-bsjzoddcq-areeba-c601.vercel.app/",
+    imageUrl: "/assets/projects/ardenova.jpg",
+    visualType: "ardenova"
+  },
+  {
+    id: "tour-travel-ventures",
+    title: "Tour & Travel Ventures — Adventure Booking",
+    category: "Web Development",
+    year: "2026",
+    badge: "Travel Platform",
+    description:
+      "A comprehensive travel and tourism web application highlighting wanderlust adventure packages, dynamic tour exploration, flight/hotel filtering, and scenic destination showcases.",
+    features: [
+      "Curated Adventure & Wanderlust Expedition Packages",
+      "Search Bar with Tours, Flights & Hotel Filtering",
+      "Scenic Destination Cards with Duration & Pricing",
+      "Fully Responsive Mobile-First Booking Interface",
+      "Interactive Navigation & Inquiry Modal Architecture"
+    ],
+    technologies: ["HTML5", "CSS3 / Tailwind", "JavaScript", "Responsive Design", "Vercel"],
+    liveUrl: "https://tour-and-travel-ventures-vjxt-hpul54oyh-areeba-c601.vercel.app/",
+    imageUrl: "/assets/projects/travel-ventures.jpg",
+    visualType: "travel"
+  },
+  {
+    id: "kao-lahore",
+    title: "KAO Lahore — Premium Chinese Cuisine",
+    category: "Web Development",
+    year: "2026",
+    badge: "Fine Dining Restaurant",
+    description:
+      "An opulent fine dining restaurant website designed for KAO Lahore, featuring authentic Chinese gourmet cuisine, VIP private dining reservation system, and luxury oriental aesthetics.",
+    features: [
+      "VIP Dining Reservation & Guest Booking Engine",
+      "Authentic Gourmet Chinese Cuisine Menu Showcase",
+      "Opulent Royal Black & Gold Atmospheric Design",
+      "Culinary Storytelling & Chef Signature Highlights",
+      "Interactive Contact, Location & Opening Hours"
+    ],
+    technologies: ["HTML5", "CSS3", "JavaScript", "UI/UX", "Vercel"],
+    liveUrl: "https://kao-lahore-premium-chinese-cuisine-tmlh-n50urukp4-areeba-c601.vercel.app/",
+    imageUrl: "/assets/projects/kao-lahore.jpg",
+    visualType: "kao-lahore"
   },
   {
     id: "voyageur-website",

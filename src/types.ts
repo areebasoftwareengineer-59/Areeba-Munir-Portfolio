@@ -11,7 +11,7 @@ export interface Project {
   isPreviewOnly?: boolean;
   featured?: boolean;
   badge?: string;
-  visualType: 'sms-system' | 'figma-portal' | 'voyageur' | 'gallery' | 'calculator' | 'music' | 'queueless' | 'focusflow' | 'rentie';
+  visualType: 'sms-system' | 'figma-portal' | 'voyageur' | 'gallery' | 'calculator' | 'music' | 'queueless' | 'focusflow' | 'rentie' | 'atelier' | 'ardenova' | 'travel' | 'kao-lahore';
 }
 
 export interface SkillItem {

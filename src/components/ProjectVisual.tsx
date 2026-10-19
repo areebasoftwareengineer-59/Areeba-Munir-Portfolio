@@ -13,7 +13,8 @@ import {
   Database,
   Layout,
   ExternalLink,
-  Maximize2
+  Maximize2,
+  Sparkles
 } from 'lucide-react';
 import { Project } from '../types';
 
@@ -332,6 +333,126 @@ export const ProjectVisual: React.FC<ProjectVisualProps> = ({ project }) => {
           <div className="relative z-10 flex items-center justify-between text-[11px] font-mono text-slate-400">
             <span>HTML • CSS • JavaScript</span>
             <span className="text-teal-400">Modern Architecture</span>
+          </div>
+        </div>
+      );
+
+    case 'atelier':
+      return (
+        <div className="w-full h-full min-h-[170px] bg-gradient-to-br from-[#1a1612] via-[#241e17] to-[#120f0d] p-5 flex flex-col justify-between relative overflow-hidden group-hover:scale-105 transition-transform duration-500">
+          <div className="relative z-10 flex items-center justify-between">
+            <span className="px-2.5 py-1 rounded-md bg-amber-500/20 border border-amber-400/40 text-[11px] font-mono text-[#F5D38A] font-bold flex items-center gap-1.5">
+              <Sparkles className="w-3.5 h-3.5 text-amber-300" />
+              LUXURY EDITORIAL
+            </span>
+            <span className="text-xs font-mono text-amber-200/80">Atelier Form</span>
+          </div>
+
+          <div className="relative z-10 my-2 p-2.5 rounded-xl bg-slate-950/80 border border-amber-500/30 flex items-center justify-around text-center text-xs font-mono">
+            <div>
+              <span className="text-[10px] text-amber-200/60 block">Aesthetic</span>
+              <span className="font-bold text-amber-100">Minimalist</span>
+            </div>
+            <div className="w-[1px] h-6 bg-amber-500/30" />
+            <div>
+              <span className="text-[10px] text-amber-200/60 block">Collection</span>
+              <span className="font-bold text-[#F5D38A]">No. 04</span>
+            </div>
+          </div>
+
+          <div className="relative z-10 flex items-center justify-between text-[11px] font-mono text-slate-400">
+            <span>React • Tailwind • Editorial</span>
+            <span className="text-amber-300">Vercel Live</span>
+          </div>
+        </div>
+      );
+
+    case 'ardenova':
+      return (
+        <div className="w-full h-full min-h-[170px] bg-gradient-to-br from-[#071324] via-[#0d1e38] to-[#040a14] p-5 flex flex-col justify-between relative overflow-hidden group-hover:scale-105 transition-transform duration-500">
+          <div className="relative z-10 flex items-center justify-between">
+            <span className="px-2.5 py-1 rounded-md bg-cyan-500/20 border border-cyan-400/50 text-[11px] font-mono text-cyan-300 font-bold flex items-center gap-1.5">
+              <Cpu className="w-3.5 h-3.5" />
+              DIGITAL AGENCY
+            </span>
+            <span className="text-xs font-mono text-cyan-400">Ardenova Digital</span>
+          </div>
+
+          <div className="relative z-10 my-2 p-2.5 rounded-xl bg-slate-950/80 border border-cyan-500/30 flex items-center justify-around text-center text-xs font-mono">
+            <div>
+              <span className="text-[10px] text-cyan-300/60 block">Design System</span>
+              <span className="font-bold text-white">Cyber UI</span>
+            </div>
+            <div className="w-[1px] h-6 bg-cyan-500/30" />
+            <div>
+              <span className="text-[10px] text-cyan-300/60 block">Innovation</span>
+              <span className="font-bold text-cyan-300">Future-Forward</span>
+            </div>
+          </div>
+
+          <div className="relative z-10 flex items-center justify-between text-[11px] font-mono text-slate-400">
+            <span>React • Next-Gen UI • 3D</span>
+            <span className="text-cyan-400">Vercel Live</span>
+          </div>
+        </div>
+      );
+
+    case 'travel':
+      return (
+        <div className="w-full h-full min-h-[170px] bg-gradient-to-br from-[#062029] via-[#092d3b] to-[#03131a] p-5 flex flex-col justify-between relative overflow-hidden group-hover:scale-105 transition-transform duration-500">
+          <div className="relative z-10 flex items-center justify-between">
+            <span className="px-2.5 py-1 rounded-md bg-emerald-500/20 border border-emerald-400/50 text-[11px] font-mono text-emerald-300 font-bold flex items-center gap-1.5">
+              <Globe className="w-3.5 h-3.5" />
+              TRAVEL & TOURS
+            </span>
+            <span className="text-xs font-mono text-emerald-400">Wanderlust Explorer</span>
+          </div>
+
+          <div className="relative z-10 my-2 p-2.5 rounded-xl bg-slate-950/80 border border-emerald-500/30 flex items-center justify-around text-center text-xs font-mono">
+            <div>
+              <span className="text-[10px] text-emerald-300/60 block">Expeditions</span>
+              <span className="font-bold text-white">Alps & Andes</span>
+            </div>
+            <div className="w-[1px] h-6 bg-emerald-500/30" />
+            <div>
+              <span className="text-[10px] text-emerald-300/60 block">Booking</span>
+              <span className="font-bold text-emerald-300">Instant</span>
+            </div>
+          </div>
+
+          <div className="relative z-10 flex items-center justify-between text-[11px] font-mono text-slate-400">
+            <span>HTML5 • CSS • JavaScript</span>
+            <span className="text-emerald-400">Vercel Live</span>
+          </div>
+        </div>
+      );
+
+    case 'kao-lahore':
+      return (
+        <div className="w-full h-full min-h-[170px] bg-gradient-to-br from-[#240a0e] via-[#331118] to-[#140507] p-5 flex flex-col justify-between relative overflow-hidden group-hover:scale-105 transition-transform duration-500">
+          <div className="relative z-10 flex items-center justify-between">
+            <span className="px-2.5 py-1 rounded-md bg-amber-500/20 border border-amber-400/50 text-[11px] font-mono text-[#F5D38A] font-bold flex items-center gap-1.5">
+              <Sparkles className="w-3.5 h-3.5 text-amber-400" />
+              CHINESE CUISINE
+            </span>
+            <span className="text-xs font-mono text-rose-300/80">KAO Lahore</span>
+          </div>
+
+          <div className="relative z-10 my-2 p-2.5 rounded-xl bg-slate-950/80 border border-amber-500/30 flex items-center justify-around text-center text-xs font-mono">
+            <div>
+              <span className="text-[10px] text-amber-200/60 block">Dining</span>
+              <span className="font-bold text-[#F5D38A]">Fine Dining</span>
+            </div>
+            <div className="w-[1px] h-6 bg-amber-500/30" />
+            <div>
+              <span className="text-[10px] text-amber-200/60 block">VIP Booking</span>
+              <span className="font-bold text-rose-300">Available</span>
+            </div>
+          </div>
+
+          <div className="relative z-10 flex items-center justify-between text-[11px] font-mono text-slate-400">
+            <span>Oriental Luxury • Gourmet</span>
+            <span className="text-amber-300">Vercel Live</span>
           </div>
         </div>
       );
